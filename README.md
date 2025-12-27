@@ -139,7 +139,6 @@ To make sure redirects and styles work, you **must** update the `BASE_URL`.
 
 ---
 ## 📂 Folder Structure
-## 📂 Folder Structure
 
 ```text
 /christmas-smm-panel/
