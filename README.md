@@ -129,7 +129,7 @@ To make sure redirects and styles work, you **must** update the `BASE_URL`.
 * Go to **IndianSMMServices** (or any panel supporting v2 API) and get your API Key.
 * File: `config/config.php`
     ```php
-    define('SMM_API_URL', '[https://indiansmmservices.com/api/v2](https://indiansmmservices.com/api/v2)');
+    define('SMM_API_URL', 'https://indiansmmservices.com/api/v2');
     define('SMM_API_KEY', 'YOUR_API_KEY_HERE');
     ```
 
@@ -139,51 +139,59 @@ To make sure redirects and styles work, you **must** update the `BASE_URL`.
 
 ---
 ## 📂 Folder Structure
-gift.iamyashraj.com/
+## 📂 Folder Structure
+
+```text
+/christmas-smm-panel/
 │
-├── admin
+├── admin/                  # Admin Dashboard & Management
 │   ├── ban_user.php
-│   ├── coupons.php
+│   ├── coupons.php         # Coupon Management
 │   ├── edit_user.php
 │   ├── fix_database.php
-│   ├── import_services.php
-│   ├── index.php
+│   ├── import_services.php # API Service Importer
+│   ├── index.php           # Admin Stats & Overview
 │   ├── login.php
 │   ├── logout.php
-│   ├── order_action.php
-│   ├── orders.php
+│   ├── order_action.php    # Approve/Reject Logic
+│   ├── orders.php          # Bulk Order Management
 │   ├── services.php
-│   ├── settings.php
+│   ├── settings.php        # Site Configuration
 │   └── users.php
-├── api
-│   ├── claim.php
+│
+├── api/                    # Backend AJAX Endpoints
+│   ├── claim.php           # Process SMM Claims
 │   ├── cron.php
-│   ├── redeem.php
-│   ├── spin.php
+│   ├── redeem.php          # Coupon Logic
+│   ├── spin.php            # Wheel Spin Logic
 │   └── track_order.php
-├── assets
-│   ├── css
+│
+├── assets/                 # Frontend Resources
+│   ├── css/
 │   │   └── style.css
-│   ├── images
-│   └── js
-│       └── main.js
-├── christmas_gift_smm.sql (DataBase)
-├── config
-│   ├── config.php
-│   ├── db.php
-│   └── functions.php
-├── dashboard.php
-├── includes
-│   ├── auth.php
+│   ├── images/
+│   └── js/
+│       └── main.js         # Frontend Logic (Wheel Animation)
+│
+├── config/                 # Core Configuration
+│   ├── config.php          # API Keys, URLs, Constants
+│   ├── db.php              # Database Connection
+│   └── functions.php       # Helper Functions
+│
+├── includes/               # Reusable UI Components
+│   ├── auth.php            # Login Check
 │   ├── footer.php
 │   └── header.php
-├── index.php
+│
+├── sql/
+│   └── database.sql        # Demo Structure
+│
+├── christmas_gift_smm.sql  # Main Database Import File
+├── dashboard.php           # User Profile & History
+├── index.php               # Main Page (Spin Wheel)
 ├── login.php
 ├── logout.php
-├── register.php
-├── sql
-│   └── database.sql (demo)
-
+└── register.php
 ---
 
 ## 📸 Screenshots
