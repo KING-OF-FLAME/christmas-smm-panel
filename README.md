@@ -113,7 +113,7 @@ You can install this on your local computer (XAMPP) or a live website (cPanel).
 5.  **Configure Base URL:**
     Open `config/config.php` and set your domain:
     ```php
-    define('BASE_URL', '[https://your-domain.com/](https://your-domain.com/)');
+    define('BASE_URL', 'https://your-domain.com/'); // Your Domain Url
     ```
 
 ---
