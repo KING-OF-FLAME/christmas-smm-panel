@@ -84,7 +84,11 @@ You can install this on your local computer (XAMPP) or a live website (cPanel).
     define('BASE_URL', 'http://localhost/gift/');
     ```
 6.  **Run:** Open `http://localhost/gift/` in your browser.
-
+7.  ** Admin Login Details: **
+    ```
+    Username: admin.2026
+    Password: admin.2026
+    ```
 ---
 
 ### ☁️ Option 2: Shared Hosting (cPanel/Hostinger)
