@@ -198,9 +198,9 @@ To make sure redirects and styles work, you **must** update the `BASE_URL`.
 
 ## 📸 Screenshots
 
-| User Dashboard (Spin Wheel) | Admin Orders (Bulk Actions) |
+| User Dashboard (Spin Wheel) | Admin Panel |
 | :---: | :---: |
-| <img src="https://placehold.co/600x400/d32f2f/FFF?text=User+Dashboard" alt="User UI" width="100%"> | <img src="https://i.ibb.co/XZJjvnRg/Screenshot-2025-12-27-143128.png" alt="Admin UI" width="100%"> |
+| <img src="https://i.ibb.co/qYmqCwTF/Screenshot-2025-12-27-143513.png" alt="User UI" width="100%"> | <img src="https://i.ibb.co/XZJjvnRg/Screenshot-2025-12-27-143128.png" alt="Admin UI" width="100%"> |
 
 ---
 
