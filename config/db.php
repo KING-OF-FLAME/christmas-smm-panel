@@ -1,14 +1,10 @@
 <?php
 // File: config/db.php
 
-$host = 'sdb-67.hosting.stackcp.net'; 
-$db_name = 'christmas_gift_db-35303437de8c';
-
-// CHANGE THIS: Your screenshot shows the username is 'cgd'
-$username = 'cgd'; 
-
-// This is the password you set today (23/12/2025)
-$password = 'Christmas2025!';
+$host = 'YOUR_DATABASE_HOST'; 
+$db_name = 'YOUR_DATABASE_NAME';
+$username = 'YOUR_DATABASE_USERNAME'; 
+$password = 'YOUR_DATABASE_PASSWORD';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db_name;charset=utf8mb4", $username, $password);
