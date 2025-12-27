@@ -15,7 +15,7 @@ A festive, fully functional **Social Media Marketing (SMM) Reward System**. This
 
 ---
 
-## 🌟 About The Project 📍
+## About The Project 📍
 
 This project bridges the gap between **Gamification** and **SMM Panels**. Instead of paying cash, users pay with their time and engagement.
 
@@ -26,7 +26,7 @@ This project bridges the gap between **Gamification** and **SMM Panels**. Instea
 
 ---
 
-## 🚀 Features 📍
+##  Features 📍
 
 ### 👤 User Panel
 * **🎅 Spin & Win Wheel:** Interactive canvas-based wheel with weighted logic.
