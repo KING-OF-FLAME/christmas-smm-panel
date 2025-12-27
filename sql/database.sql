@@ -1,0 +1,1 @@
+<?php // File: database.sql ?>
