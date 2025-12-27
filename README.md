@@ -62,7 +62,7 @@ You can install this on your local computer (XAMPP) or a live website (cPanel).
 1.  **Clone the Repo:**
     Download this repository as a ZIP or clone it:
     ```bash
-    git clone [https://github.com/KING-OF-FLAME/christmas-smm-panel.git](https://github.com/KING-OF-FLAME/christmas-smm-panel.git)
+    git clone https://github.com/KING-OF-FLAME/christmas-smm-panel.git
     ```
 2.  **Move Files:**
     Copy the project folder into `C:\xampp\htdocs\gift`.
