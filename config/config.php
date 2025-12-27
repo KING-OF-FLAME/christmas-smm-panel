@@ -9,11 +9,11 @@ if (session_status() === PHP_SESSION_NONE) {
 // --- CONFIGURATION SETTINGS ---
 
 // Base URL
-define('BASE_URL', 'https://gift.iamyashraj.com/'); 
+define('BASE_URL', 'your_base_url_here'); // e.g., 'http://localhost/gift/'
 
 // SMM API Settings (indiansmmservices.com)
 define('SMM_API_URL', 'https://indiansmmservices.com/api/v2');
-define('SMM_API_KEY', '8c5ea0fa9bc380b8fcd81db367a04440');
+define('SMM_API_KEY', 'your_api_key_here');
 
 // --- CRITICAL COMPATIBILITY FIX ---
 $API_URL = SMM_API_URL;
