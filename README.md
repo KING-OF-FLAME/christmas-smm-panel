@@ -3,7 +3,7 @@
 A festive, fully functional **Social Media Marketing (SMM) Reward System**. This web application allows users to earn virtual coins through **Daily Check-ins** and a **Spin & Win Wheel**, which can then be redeemed for real SMM services (Instagram Likes, Followers, etc.) via API integration.
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdtY2lnODZ0eW12eXF6eXF6eXF6eXF6eXF6eXF6eXF6eXF6eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3o7TKLM3nCLAed3Y9q/giphy.gif" alt="Christmas SMM Demo" width="200">
+  <img src="https://i.ibb.co/B2BNNzKF/unnamed-1.jpg" alt="Christmas SMM Demo" width="200">
   <br>
   <i>(Spin the wheel, earn coins, and boost your social presence!)</i>
 </p>
