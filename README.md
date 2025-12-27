@@ -191,7 +191,8 @@ To make sure redirects and styles work, you **must** update the `BASE_URL`.
 ├── index.php               # Main Page (Spin Wheel)
 ├── login.php
 ├── logout.php
-└── register.php
+└── register.php ```text
+
 ---
 
 ## 📸 Screenshots
